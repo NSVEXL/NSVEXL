@@ -31,9 +31,9 @@ Transitioning from **10 years in Physical Security** to **Cybersecurity Operatio
 ---
 
 ### 📊 GitHub Stats & Activity
-<p align="left">
-<img src="https://github-readme-stats.vercel.app/api?username=NSVEXL&show_icons=true&theme=tokyonight&count_private=true" alt="Nelson's Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NSVEXL&layout=compact&theme=tokyonight" alt="Top Languages" />
+![Nelson's Stats](https://github-readme-stats.vercel.app/api?username=NSVEXL&show_icons=true&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NSVEXL&layout=compact&theme=tokyonight)
 </p>
 
 ---
