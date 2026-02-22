@@ -11,6 +11,13 @@ Transitioning from **10 years in Physical Security** to **Cybersecurity Operatio
 - **Frameworks:** Zero-Trust Architecture, NIST Cybersecurity Framework.
 - **Innovation:** AI-driven SOC triage using CrewAI and Gemini 2.5 Flash.
 
+### 🛠️ Tech Stack & Tools
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![CrewAI](https://img.shields.io/badge/AI-Automation-orange?style=for-the-badge)
+
 ### 📜 Certifications & Education
 - **Google Cybersecurity Professional Certificate** (Completed)
 - **CompTIA Security+** (In Progress / Candidate)
@@ -31,9 +38,10 @@ Transitioning from **10 years in Physical Security** to **Cybersecurity Operatio
 ---
 
 ### 📊 GitHub Stats & Activity
-![Nelson's Stats](https://github-readme-stats.vercel.app/api?username=NSVEXL&show_icons=true&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NSVEXL&layout=compact&theme=tokyonight)
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=NSVEXL&show_icons=true&theme=tokyonight&count_private=true" alt="Nelson's Stats" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NSVEXL&layout=compact&theme=tokyonight" alt="Top Languages" height="170" />
 </p>
 
 ---
@@ -42,5 +50,3 @@ Transitioning from **10 years in Physical Security** to **Cybersecurity Operatio
 - **LinkedIn:** [linkedin.com/in/nelson-silva-valderas](https://www.linkedin.com/in/nelson-silva-valderas)
 - **Email:** nelsonsilvavalderas@gmail.com
 - **Current Focus:** Deep-diving into Network Security and refining my Python automation scripts.
-
-*"Security is not a product, but a process."*
