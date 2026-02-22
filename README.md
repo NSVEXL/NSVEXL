@@ -27,6 +27,10 @@ Transitioning from **10 years in Physical Security** to **Cybersecurity Operatio
 
 ### 🛠️ Featured Security Projects
 
+#### [🛡️ AI-Guard](https://github.com/NSVEXL/ai-guard)
+**Zero-Trust AI Web Filter Extension**
+*Engineered a client-server Chrome extension using **Python** and **FastAPI** that provides real-time threat analysis. It combines DOM context scraping with the **VirusTotal API** and **Gemini 2.5** to dynamically evaluate and block zero-day phishing or malicious web content.*
+
 #### [🤖 ai-soc-analyst](https://github.com/NSVEXL/ai-soc-analyst)
 **AI-Powered Incident Response Triage**
 *Developed a multi-agent system using **Python** and **CrewAI** that automates IP reputation checks via **VirusTotal API**. This tool reduces triage time by analyzing logs and providing a summary for human analysts.*
