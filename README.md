@@ -2,7 +2,7 @@
 
 ### 🛡️ Cybersecurity Professional in Transition | Aspiring SOC Analyst
 
-Transitioning from **10 years in Physical Security** to **Cybersecurity Operations**. I bridge the gap between real-world security protocols and digital threat landscapes through automation, log analysis, and AI-driven tooling.
+**10 years in Physical Security** to **Cybersecurity Operations**. I bridge the gap between real-world security protocols and digital threat landscapes through automation, log analysis, and AI-driven tooling.
 
 ---
 
@@ -48,7 +48,7 @@ Transitioning from **10 years in Physical Security** to **Cybersecurity Operatio
 - ✅ **TryHackMe Cyber Security 101** — Completed March 2026
 - ✅ **Google Cybersecurity Professional Certificate** — Completed 2025
 - 🔄 **CompTIA Security+** — In Progress
-- 🔄 **TryHackMe SOC Level 1** — In Progress
+- 🔄 **TryHackMe SOC Level 1** — 2026
 
 ---
 
