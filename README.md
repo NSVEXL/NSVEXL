@@ -1,6 +1,6 @@
 # Hi, I'm Nelson (NSVEXL) 👋
 
-### 🛡️ Cybersecurity Professional in Transition | Aspiring SOC Analyst
+### 🛡️ Operations Coordinator Team & Corporate Client Management
 
 **10 years in Physical Security** to **Cybersecurity Operations**. I bridge the gap between real-world security protocols and digital threat landscapes through automation, log analysis, and AI-driven tooling.
 
