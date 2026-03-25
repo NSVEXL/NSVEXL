@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vngels — IA para Empresas</title>
+  <meta name="description" content="Vngels transforma empresas con marketing, consultoría, auditoría, automatización e implementación de inteligencia artificial." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Particle Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ======= NAVBAR ======= -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="nav-logo">
+        <span class="logo-text">Vngels</span>
+        <span class="logo-dot"></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a href="#contacto" class="nav-cta">Empezar ahora</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#proceso">Proceso</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="#contacto" class="mobile-cta">Empezar ahora</a></li>
+    </ul>
+  </div>
+
+  <!-- ======= HERO ======= -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg-glow"></div>
+    <div class="hero-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-pulse"></span>
+        Inteligencia Artificial para Negocios
+      </div>
+
+      <h1 class="hero-title">
+        Transforma tu empresa<br />
+        con el poder de la<br />
+        <span class="gradient-text" id="typing-text"></span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Consultoría, automatización e implementación de IA diseñadas
+        para llevar tu negocio al siguiente nivel. Resultados reales,
+        impacto medible desde el día uno.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="#contacto" class="btn btn-primary">
+          Agenda una consulta gratuita
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#servicios" class="btn btn-ghost">
+          Ver servicios
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="hstat-number">+200</span>
+          <span class="hstat-label">Empresas</span>
+        </div>
+        <div class="hstat-sep"></div>
+        <div class="hero-stat">
+          <span class="hstat-number">98%</span>
+          <span class="hstat-label">Satisfacción</span>
+        </div>
+        <div class="hstat-sep"></div>
+        <div class="hero-stat">
+          <span class="hstat-number">5x</span>
+          <span class="hstat-label">ROI promedio</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="sphere-wrap">
+        <div class="sphere-ring r1"></div>
+        <div class="sphere-ring r2"></div>
+        <div class="sphere-ring r3"></div>
+        <div class="sphere-core">
+          <i class="fas fa-brain"></i>
+        </div>
+        <!-- Orbit dots -->
+        <div class="orbit-dot od1"></div>
+        <div class="orbit-dot od2"></div>
+        <div class="orbit-dot od3"></div>
+      </div>
+
+      <div class="float-card fc1">
+        <i class="fas fa-bolt"></i>
+        <div>
+          <span class="fc-label">Automatización</span>
+          <span class="fc-sub">Activa y funcionando</span>
+        </div>
+      </div>
+      <div class="float-card fc2">
+        <i class="fas fa-chart-line"></i>
+        <div>
+          <span class="fc-label">+340% eficiencia</span>
+          <span class="fc-sub">Resultado promedio</span>
+        </div>
+      </div>
+      <div class="float-card fc3">
+        <i class="fas fa-shield-halved"></i>
+        <div>
+          <span class="fc-label">Seguro & Escalable</span>
+          <span class="fc-sub">Enterprise-ready</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= TECH MARQUEE ======= -->
+  <div class="marquee-section">
+    <p class="marquee-label">Tecnologías que implementamos</p>
+    <div class="marquee-track">
+      <div class="marquee-items">
+        <span>OpenAI GPT-4o</span><span class="mdot">·</span>
+        <span>Anthropic Claude</span><span class="mdot">·</span>
+        <span>LangChain</span><span class="mdot">·</span>
+        <span>Make.com</span><span class="mdot">·</span>
+        <span>Zapier</span><span class="mdot">·</span>
+        <span>HubSpot</span><span class="mdot">·</span>
+        <span>Salesforce AI</span><span class="mdot">·</span>
+        <span>Google Cloud AI</span><span class="mdot">·</span>
+        <span>AWS Bedrock</span><span class="mdot">·</span>
+        <span>Azure OpenAI</span><span class="mdot">·</span>
+        <span>Pinecone</span><span class="mdot">·</span>
+        <span>n8n</span><span class="mdot">·</span>
+      </div>
+      <div class="marquee-items" aria-hidden="true">
+        <span>OpenAI GPT-4o</span><span class="mdot">·</span>
+        <span>Anthropic Claude</span><span class="mdot">·</span>
+        <span>LangChain</span><span class="mdot">·</span>
+        <span>Make.com</span><span class="mdot">·</span>
+        <span>Zapier</span><span class="mdot">·</span>
+        <span>HubSpot</span><span class="mdot">·</span>
+        <span>Salesforce AI</span><span class="mdot">·</span>
+        <span>Google Cloud AI</span><span class="mdot">·</span>
+        <span>AWS Bedrock</span><span class="mdot">·</span>
+        <span>Azure OpenAI</span><span class="mdot">·</span>
+        <span>Pinecone</span><span class="mdot">·</span>
+        <span>n8n</span><span class="mdot">·</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= SERVICES ======= -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Lo que hacemos</span>
+        <h2 class="section-title">Soluciones completas<br />para tu empresa</h2>
+        <p class="section-subtitle">Desde la estrategia hasta la implementación, somos tu aliado tecnológico en cada etapa del camino.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="svc-card" data-delay="0">
+          <div class="svc-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>Marketing Digital</h3>
+          <p>Estrategias potenciadas con IA que generan leads calificados y maximizan tu retorno de inversión.</p>
+          <ul class="svc-list">
+            <li><i class="fas fa-check"></i> Campañas automatizadas</li>
+            <li><i class="fas fa-check"></i> Análisis predictivo</li>
+            <li><i class="fas fa-check"></i> Personalización a escala</li>
+          </ul>
+          <a href="#contacto" class="svc-link">Explorar <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="svc-card featured" data-delay="100">
+          <div class="svc-popular">Más popular</div>
+          <div class="svc-icon"><i class="fas fa-brain"></i></div>
+          <h3>Implementación de IA</h3>
+          <p>Integramos las últimas soluciones de inteligencia artificial en tus procesos de negocio existentes.</p>
+          <ul class="svc-list">
+            <li><i class="fas fa-check"></i> LLMs personalizados</li>
+            <li><i class="fas fa-check"></i> Chatbots inteligentes</li>
+            <li><i class="fas fa-check"></i> Análisis de datos con IA</li>
+          </ul>
+          <a href="#contacto" class="svc-link">Explorar <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="svc-card" data-delay="200">
+          <div class="svc-icon"><i class="fas fa-robot"></i></div>
+          <h3>Automatización</h3>
+          <p>Elimina tareas repetitivas y libera el potencial de tu equipo con flujos de trabajo inteligentes.</p>
+          <ul class="svc-list">
+            <li><i class="fas fa-check"></i> RPA avanzado</li>
+            <li><i class="fas fa-check"></i> Integración de sistemas</li>
+            <li><i class="fas fa-check"></i> Workflows sin código</li>
+          </ul>
+          <a href="#contacto" class="svc-link">Explorar <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="svc-card" data-delay="300">
+          <div class="svc-icon"><i class="fas fa-chart-bar"></i></div>
+          <h3>Consultoría</h3>
+          <p>Asesoramiento estratégico para definir tu hoja de ruta de transformación digital con IA.</p>
+          <ul class="svc-list">
+            <li><i class="fas fa-check"></i> Diagnóstico empresarial</li>
+            <li><i class="fas fa-check"></i> Hoja de ruta IA</li>
+            <li><i class="fas fa-check"></i> Change management</li>
+          </ul>
+          <a href="#contacto" class="svc-link">Explorar <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="svc-card" data-delay="400">
+          <div class="svc-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+          <h3>Auditoría IA</h3>
+          <p>Evaluamos tus procesos e identificamos oportunidades de mejora con inteligencia artificial.</p>
+          <ul class="svc-list">
+            <li><i class="fas fa-check"></i> Madurez digital</li>
+            <li><i class="fas fa-check"></i> Identificación de gaps</li>
+            <li><i class="fas fa-check"></i> Plan de acción</li>
+          </ul>
+          <a href="#contacto" class="svc-link">Explorar <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= STATS ======= -->
+  <section class="stats-section">
+    <div class="stats-glow"></div>
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-box" data-delay="0">
+          <span class="sval" data-target="200">0</span><span class="sunit">+</span>
+          <span class="sdesc">Empresas transformadas</span>
+        </div>
+        <div class="stat-box" data-delay="100">
+          <span class="sval" data-target="98">0</span><span class="sunit">%</span>
+          <span class="sdesc">Tasa de satisfacción</span>
+        </div>
+        <div class="stat-box" data-delay="200">
+          <span class="sval" data-target="340">0</span><span class="sunit">%</span>
+          <span class="sdesc">Aumento de eficiencia</span>
+        </div>
+        <div class="stat-box" data-delay="300">
+          <span class="sval" data-target="5">0</span><span class="sunit">x</span>
+          <span class="sdesc">Retorno de inversión</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= ABOUT ======= -->
+  <section class="about" id="nosotros">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="card-stack">
+            <div class="card-shadow"></div>
+            <div class="card-main">
+              <div class="card-label">Vngels Impact</div>
+              <div class="metric-list">
+                <div class="metric-row">
+                  <span class="ml">Eficiencia operacional</span>
+                  <span class="mv">92%</span>
+                  <div class="mbar"><div class="mfill" data-w="92"></div></div>
+                </div>
+                <div class="metric-row">
+                  <span class="ml">Reducción de costos</span>
+                  <span class="mv">78%</span>
+                  <div class="mbar"><div class="mfill" data-w="78"></div></div>
+                </div>
+                <div class="metric-row">
+                  <span class="ml">Velocidad de entrega</span>
+                  <span class="mv">85%</span>
+                  <div class="mbar"><div class="mfill" data-w="85"></div></div>
+                </div>
+                <div class="metric-row">
+                  <span class="ml">Satisfacción del cliente</span>
+                  <span class="mv">98%</span>
+                  <div class="mbar"><div class="mfill" data-w="98"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-tag">¿Por qué Vngels?</span>
+          <h2 class="section-title">No solo consultamos.<br />Transformamos.</h2>
+          <p class="about-desc">
+            En Vngels no creemos en soluciones genéricas. Cada empresa tiene su ADN único,
+            y nuestra IA lo entiende. Combinamos estrategia de negocio con tecnología de
+            vanguardia para crear transformaciones reales y medibles.
+          </p>
+          <div class="about-features">
+            <div class="afeat">
+              <div class="afeat-icon"><i class="fas fa-bolt"></i></div>
+              <div class="afeat-text">
+                <h4>Resultados en semanas, no meses</h4>
+                <p>Nuestra metodología ágil permite implementaciones rápidas con impacto inmediato.</p>
+              </div>
+            </div>
+            <div class="afeat">
+              <div class="afeat-icon"><i class="fas fa-shield-alt"></i></div>
+              <div class="afeat-text">
+                <h4>Seguridad y compliance</h4>
+                <p>Todas las implementaciones siguen los más altos estándares de seguridad y regulación.</p>
+              </div>
+            </div>
+            <div class="afeat">
+              <div class="afeat-icon"><i class="fas fa-headset"></i></div>
+              <div class="afeat-text">
+                <h4>Soporte 24/7</h4>
+                <p>Tu equipo de expertos disponible en todo momento para garantizar el éxito continuo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= PROCESS ======= -->
+  <section class="process" id="proceso">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Cómo trabajamos</span>
+        <h2 class="section-title">Tu transformación en<br />5 pasos concretos</h2>
+      </div>
+
+      <div class="process-wrap">
+        <div class="proc-line"></div>
+
+        <div class="proc-step" data-delay="0">
+          <div class="proc-num">01</div>
+          <div class="proc-body">
+            <h3>Diagnóstico</h3>
+            <p>Analizamos tu empresa en profundidad: procesos, tecnología, equipo y objetivos para entender dónde estás y hacia dónde quieres ir.</p>
+          </div>
+        </div>
+
+        <div class="proc-step right" data-delay="150">
+          <div class="proc-num">02</div>
+          <div class="proc-body">
+            <h3>Estrategia</h3>
+            <p>Diseñamos una hoja de ruta personalizada con las soluciones de IA más adecuadas para tus necesidades y presupuesto.</p>
+          </div>
+        </div>
+
+        <div class="proc-step" data-delay="300">
+          <div class="proc-num">03</div>
+          <div class="proc-body">
+            <h3>Implementación</h3>
+            <p>Desplegamos las soluciones de forma ágil, integrándolas perfectamente con tus sistemas existentes y minimizando interrupciones.</p>
+          </div>
+        </div>
+
+        <div class="proc-step right" data-delay="450">
+          <div class="proc-num">04</div>
+          <div class="proc-body">
+            <h3>Capacitación</h3>
+            <p>Formamos a tu equipo para sacar el máximo provecho de las nuevas herramientas y garantizar adopción real y sostenible.</p>
+          </div>
+        </div>
+
+        <div class="proc-step" data-delay="600">
+          <div class="proc-num">05</div>
+          <div class="proc-body">
+            <h3>Optimización continua</h3>
+            <p>Monitoreamos, medimos y mejoramos constantemente para garantizar que los resultados sigan creciendo con el tiempo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= CTA BANNER ======= -->
+  <section class="cta-banner">
+    <div class="cta-glow"></div>
+    <div class="container">
+      <div class="cta-inner">
+        <h2>¿Listo para transformar<br />tu empresa con IA?</h2>
+        <p>Agenda una consulta gratuita y descubre cómo Vngels puede llevar tu negocio al siguiente nivel.</p>
+        <a href="#contacto" class="btn btn-primary btn-lg">
+          Agendar consulta gratuita <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= CONTACT ======= -->
+  <section class="contact" id="contacto">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contacto</span>
+        <h2 class="section-title">Hablemos de tu proyecto</h2>
+        <p class="section-subtitle">Un experto de Vngels se pondrá en contacto contigo en menos de 24 horas.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="cinfo-item">
+            <div class="cinfo-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <p>hola@vngels.com</p>
+            </div>
+          </div>
+          <div class="cinfo-item">
+            <div class="cinfo-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Teléfono</h4>
+              <p>+1 (555) 000-0000</p>
+            </div>
+          </div>
+          <div class="cinfo-item">
+            <div class="cinfo-icon"><i class="fas fa-earth-americas"></i></div>
+            <div>
+              <h4>Ubicación</h4>
+              <p>Global · 100% remoto</p>
+            </div>
+          </div>
+          <div class="cinfo-social">
+            <a href="#" class="csocial" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="csocial" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" class="csocial" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Nombre</label>
+              <input type="text" placeholder="Tu nombre" required />
+            </div>
+            <div class="form-group">
+              <label>Empresa</label>
+              <input type="text" placeholder="Tu empresa" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="tu@empresa.com" required />
+          </div>
+          <div class="form-group">
+            <label>Servicio de interés</label>
+            <select>
+              <option value="">Selecciona un servicio</option>
+              <option>Marketing Digital con IA</option>
+              <option>Implementación de IA</option>
+              <option>Automatización</option>
+              <option>Consultoría</option>
+              <option>Auditoría IA</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Mensaje</label>
+            <textarea rows="4" placeholder="Cuéntanos sobre tu proyecto..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            Enviar mensaje <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-text">Vngels</span>
+          <p>Transformamos empresas con el poder de la inteligencia artificial.</p>
+          <div class="cinfo-social" style="margin-top:16px">
+            <a href="#" class="csocial" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="csocial" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" class="csocial" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="#servicios">Marketing Digital</a></li>
+            <li><a href="#servicios">Implementación IA</a></li>
+            <li><a href="#servicios">Automatización</a></li>
+            <li><a href="#servicios">Consultoría</a></li>
+            <li><a href="#servicios">Auditoría</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#proceso">Proceso</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Vngels. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
